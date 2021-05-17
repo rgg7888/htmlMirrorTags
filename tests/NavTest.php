@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use App\tags\nav\Nav;
+use App\tags\mirrorNav\Nav;
 
 class NavTest extends TestCase {
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\tags\nav;
+namespace App\tags\mirrorNav;
 
 use App\ha\HtmlArmor;
 

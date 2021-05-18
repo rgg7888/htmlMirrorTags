@@ -34,3 +34,10 @@ if(!function_exists('_li')) {
         return $li->add();
     }
 }
+
+if(!function_exists('_i')) {
+    function _i(array $atributos = [],$content = null) {
+        $i = new App\tags\mirrorI\I($content,$atributos);
+        return $i->add();
+    }
+}

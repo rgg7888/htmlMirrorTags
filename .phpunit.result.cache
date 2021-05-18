@@ -1,1 +1,1 @@
-{"version":1,"defects":{"NavTest::test_script_tag":4},"times":{"NavTest::test_script_tag":0.002}}
+{"version":1,"defects":{"NavTest::test_script_tag":4},"times":{"NavTest::test_script_tag":0,"ATest::test_a_tag":0.003,"DivTest::test_div_tag":0.023}}

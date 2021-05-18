@@ -17,7 +17,9 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "App\\tags\\mirrorNav\\": "src/nav/"
+            "App\\tags\\mirrorNav\\": "src/nav/",
+            "App\\tags\\mirrorDiv\\": "src/div/",
+            "App\\tags\\mirrorA\\": "src/a/"
         },
         "files": ["src/helpers.php"]
     }

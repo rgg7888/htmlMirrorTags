@@ -20,3 +20,17 @@ if(!function_exists('_a')) {
         return $a->add();
     }
 }
+
+if(!function_exists('_ul')) {
+    function _ul(array $atributos = [],$content = null) {
+        $ul = new App\tags\ul\Ul($content,$atributos);
+        return $ul->add();
+    }
+}
+
+if(!function_exists('_li')) {
+    function _li(array $atributos = [],$content = null) {
+        $li = new App\tags\li\Li($content,$atributos);
+        return $li->add();
+    }
+}

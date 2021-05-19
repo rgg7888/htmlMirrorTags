@@ -13,4 +13,5 @@
     <li>_li(atributos,contenido)</li>
     <li>_i(atributos,contenido)</li>
     <li>_footer(atributos,contenido)</li>
+    <li>_h(1,2,3,4,5,6)(atributos,contenido)</li>
 </ul>

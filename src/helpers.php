@@ -48,3 +48,10 @@ if(!function_exists('_footer')) {
         return $footer->add();
     }
 }
+
+if(!function_exists('_section')) {
+    function _section(array $atributos = [],$content = null) {
+        $section = new App\tags\mirrorSection\Footer($content,$atributos);
+        return $section->add();
+    }
+}

@@ -1,1 +1,1 @@
-{"version":1,"defects":{"NavTest::test_script_tag":4},"times":{"NavTest::test_script_tag":0,"ATest::test_a_tag":0.003,"DivTest::test_div_tag":0,"LiTest::test_li_tag":0,"UlTest::test_ul_tag":0,"FooterTest::test_footer_tag":0,"ITest::test_i_tag":0}}
+{"version":1,"defects":{"NavTest::test_script_tag":4},"times":{"NavTest::test_script_tag":0,"ATest::test_a_tag":0.002,"DivTest::test_div_tag":0,"LiTest::test_li_tag":0,"UlTest::test_ul_tag":0,"FooterTest::test_footer_tag":0,"ITest::test_i_tag":0,"SectionTest::test_section_tag":0}}

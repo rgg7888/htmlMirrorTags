@@ -55,3 +55,45 @@ if(!function_exists('_section')) {
         return $section->add();
     }
 }
+
+if(!function_exists('_h1')) {
+    function _h1(array $atributos = [],$content = null) {
+        $h1 = new App\tags\mirrorH1\H1($content,$atributos);
+        return $h1->add();
+    }
+}
+
+if(!function_exists('_h2')) {
+    function _h2(array $atributos = [],$content = null) {
+        $h2 = new App\tags\mirrorH2\H2($content,$atributos);
+        return $h2->add();
+    }
+}
+
+if(!function_exists('_h3')) {
+    function _h3(array $atributos = [],$content = null) {
+        $h3 = new App\tags\mirrorH3\H3($content,$atributos);
+        return $h3->add();
+    }
+}
+
+if(!function_exists('_h4')) {
+    function _h4(array $atributos = [],$content = null) {
+        $h4 = new App\tags\mirrorH4\H4($content,$atributos);
+        return $h4->add();
+    }
+}
+
+if(!function_exists('_h5')) {
+    function _h5(array $atributos = [],$content = null) {
+        $h5 = new App\tags\mirrorH5\H5($content,$atributos);
+        return $h5->add();
+    }
+}
+
+if(!function_exists('_h6')) {
+    function _h6(array $atributos = [],$content = null) {
+        $h6 = new App\tags\mirrorH6\H6($content,$atributos);
+        return $h6->add();
+    }
+}

@@ -24,7 +24,13 @@
             "App\\tags\\mirrorLi\\": "src/li/",
             "App\\tags\\mirrorI\\": "src/i/",
             "App\\tags\\mirrorFooter\\": "src/footer/",
-            "App\\tags\\mirrorSection\\": "src/section/"
+            "App\\tags\\mirrorSection\\": "src/section/",
+            "App\\tags\\mirrorH1\\": "src/h1/",
+            "App\\tags\\mirrorH2\\": "src/h2/",
+            "App\\tags\\mirrorH3\\": "src/h3/",
+            "App\\tags\\mirrorH4\\": "src/h4/",
+            "App\\tags\\mirrorH5\\": "src/h5/",
+            "App\\tags\\mirrorH6\\": "src/h6/"
         },
         "files": ["src/helpers.php"]
     }

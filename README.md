@@ -12,4 +12,5 @@
     <li>_ul(atributos,contenido)</li>
     <li>_li(atributos,contenido)</li>
     <li>_i(atributos,contenido)</li>
+    <li>_footer(atributos,contenido)</li>
 </ul>

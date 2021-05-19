@@ -22,7 +22,8 @@
             "App\\tags\\mirrorA\\": "src/a/",
             "App\\tags\\mirrorUl\\": "src/ul/",
             "App\\tags\\mirrorLi\\": "src/li/",
-            "App\\tags\\mirrorI\\": "src/i"
+            "App\\tags\\mirrorI\\": "src/i/",
+            "App\\tags\\mirrorFooter\\": "src/footer/"
         },
         "files": ["src/helpers.php"]
     }

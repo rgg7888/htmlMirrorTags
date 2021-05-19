@@ -41,3 +41,10 @@ if(!function_exists('_i')) {
         return $i->add();
     }
 }
+
+if(!function_exists('_footer')) {
+    function _footer(array $atributos = [],$content = null) {
+        $footer = new App\tags\mirrorFooter\Footer($content,$atributos);
+        return $footer->add();
+    }
+}

@@ -51,7 +51,7 @@ if(!function_exists('_footer')) {
 
 if(!function_exists('_section')) {
     function _section(array $atributos = [],$content = null) {
-        $section = new App\tags\mirrorSection\Footer($content,$atributos);
+        $section = new App\tags\mirrorSection\Section($content,$atributos);
         return $section->add();
     }
 }

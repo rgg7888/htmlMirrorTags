@@ -97,3 +97,17 @@ if(!function_exists('_h6')) {
         return $h6->add();
     }
 }
+
+if(!function_exists('_form')) {
+    function _form(array $atributos = [],$content = null) {
+        $form = new App\tags\form\Form($content,$atributos);
+        return $form->add();
+    }
+}
+
+if(!function_exists('_label')) {
+    function _label(array $atributos = [],$content = null) {
+        $label = new App\tags\label\Label($content,$atributos);
+        return $label->add();
+    }
+}

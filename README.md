@@ -15,4 +15,6 @@
     <li>_footer(atributos,contenido)</li>
     <li>_h(1,2,3,4,5,6)(atributos,contenido)</li>
     <li>_section(atributos,contenido)</li>
+    <li>_form(atributos,contenido)</li>
+    <li>_label(atributos,contenido)</li>
 </ul>
